@@ -5,6 +5,8 @@ const buttonsContainer = document.querySelector(".buttons");
 const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
+const yesAudio = document.getElementById("yesAudio");
+
 
 const MAX_IMAGES = 5;
 
