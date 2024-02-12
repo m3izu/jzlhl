@@ -30,6 +30,7 @@ function handleYesClick() {
   titleElement.innerHTML = "Yayy!! See you after 3PM!! (klase panako)";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
+  playYesAudio(); 
 }
 
 function resizeYesButton() {
@@ -61,3 +62,8 @@ function changeImage(image) {
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
 }
+
+function playYesAudio() {
+  yesAudio.play();
+}
+
