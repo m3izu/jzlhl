@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "See you after 3PM!! (klase panako)";
+  titleElement.innerHTML = "Yayy!! See you after 3PM!! (klase panako)";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
