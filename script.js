@@ -58,8 +58,13 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-${image}.png`;
+  if (image === "yes") {
+    catImg.src = "img/cat-yes.gif";
+  } else {
+    catImg.src = `img/cat-${image}.png`;
+  }
 }
+
 
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
